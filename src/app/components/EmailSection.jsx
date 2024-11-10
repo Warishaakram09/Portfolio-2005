@@ -52,9 +52,9 @@ const EmailSection = () => {
         <p className="text-[#ADB7BE] mb-4 max-w-md">
           {" "}
           Looking for a creative partner for your next project? Let&apos;s connect!
-          I'm always excited to work with like-minded individuals and businesses
+          I am always excited to work with like-minded individuals and businesses
           to create stunning, impactful digital experiences. Drop me a message
-          and let's start something great together.
+          and lets start something great together.
         </p>
         <div className="socials flex flex-row gap-2">
           <Link href="https://github.com/Warishaakram09">

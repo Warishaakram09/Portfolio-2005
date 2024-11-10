@@ -59,11 +59,11 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-          I'm Warisha Akram, a passionate and dedicated professional with expertise in web development,
+          I am Warisha Akram, a passionate and dedicated professional with expertise in web development,
           graphic design, and video editing. My goal is to combine creativity and technical skills to
           build engaging digital experiences that stand out. With years of experience in crafting
           compelling visuals, designing seamless user experiences, and editing impactful videos,
-          I bring a comprehensive approach to each project I take on. Let's create something remarkable together.
+          I bring a comprehensive approach to each project I take on. Lets create something remarkable together.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
