@@ -7,8 +7,8 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "React Portfolio Website",
-    description: "Project 1 description",
+    title: "Pizza Website Html Css",
+    description: "A one-page, responsive pizza ordering website created using HTML and CSS.It features a simple and attractive layout with an interactive menu and clear call-to-action buttons, providing users with an easy and enjoyable browsing experience.",
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
     gitUrl: "/",
@@ -16,8 +16,8 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "Potography Portfolio Website",
-    description: "Project 2 description",
+    title: "Unique Path and Shareable Link Resume",
+    description: "A simple and customizable resume builder that creates unique paths for users to design their profiles, with the option to generate a shareable link for easy access and sharing.",
     image: "/images/projects/2.png",
     tag: ["All", "Web"],
     gitUrl: "/",
@@ -97,8 +97,8 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Mobile"
-          isSelected={tag === "Mobile"}
+          name="Designing"
+          isSelected={tag === "Designing"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">

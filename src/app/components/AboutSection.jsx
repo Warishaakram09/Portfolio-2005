@@ -10,11 +10,11 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>Node.js</li>
-        <li>Express</li>
-        <li>PostgreSQL</li>
-        <li>Sequelize</li>
-        <li>JavaScript</li>
-        <li>React</li>
+        <li>Html/Css</li>
+        <li>Typescript</li>
+        <li>Next js</li>
+        <li>Photoshop</li>
+        <li>Illustrator</li>
       </ul>
     ),
   },
@@ -23,8 +23,9 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Fullstack Academy of Code</li>
-        <li>University of California, Santa Cruz</li>
+        <li>Completed Intermediate at Girls Degree Collage</li>
+        <li>Studied graphic design and video editing at Simsat Computer Academy</li>
+        <li>Currently pursuing web development training at Governor House</li>
       </ul>
     ),
   },
@@ -33,8 +34,9 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>AWS Cloud Practitioner</li>
-        <li>Google Professional Cloud Developer</li>
+        <li>Intelligent Dipoloma Graphic Designing</li>
+        <li>Video Editing and Post-Production Specialist</li>
+        <li>Certified Web Development Professional </li>
       </ul>
     ),
   },
@@ -57,12 +59,11 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am a full stack web developer with a passion for creating
-            interactive and responsive web applications. I have experience
-            working with JavaScript, React, Redux, Node.js, Express, PostgreSQL,
-            Sequelize, HTML, CSS, and Git. I am a quick learner and I am always
-            looking to expand my knowledge and skill set. I am a team player and
-            I am excited to work with others to create amazing applications.
+          I'm Warisha Akram, a passionate and dedicated professional with expertise in web development,
+          graphic design, and video editing. My goal is to combine creativity and technical skills to
+          build engaging digital experiences that stand out. With years of experience in crafting
+          compelling visuals, designing seamless user experiences, and editing impactful videos,
+          I bring a comprehensive approach to each project I take on. Let's create something remarkable together.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
